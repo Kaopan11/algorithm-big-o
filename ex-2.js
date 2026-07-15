@@ -40,3 +40,5 @@ console.log(hasDuplicates(array1)); // true
 // ตัวอย่าง 2: ไม่มีค่าซ้ำ → ต้องเทียบครบทุกคู่ → false (worst case O(n²))
 const array2 = [1, 2, 3, 4, 5, 6, 7];
 console.log(hasDuplicates(array2)); // false
+
+// === คำตอบ Time Complexity: O(n²) ===

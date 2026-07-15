@@ -116,3 +116,6 @@ const studentsInfo = [
 console.log(addScoreToSelectedStudent(studentsInfo, "Emily", "art", 70)); // Emily has got 70 on art
 // Binary Search หา "Olive" ไม่เจอ (ใกล้ Olivia แต่ไม่ตรง) → ไม่พบใน list
 console.log(addScoreToSelectedStudent(studentsInfo, "Olive", "math", 80)); //Cannot find Olive on the list
+
+// === คำตอบ Time Complexity (ฟังก์ชันหลัก addScoreToSelectedStudent): O(n²) ===
+// sortedByName (Bubble Sort): O(n²) | Binary Search: O(log n) | รวม: O(n²)

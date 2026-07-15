@@ -76,3 +76,5 @@ const studentsInfo = [
 
 // เรียกฟังก์ชัน: กรอง class 11 → Brian(92) + Eva(91) → (92+91)/2 = 91.5
 console.log(findAverageScoreByClass(studentsInfo, 11)); // 91.5
+
+// === คำตอบ Time Complexity: O(n) ===
